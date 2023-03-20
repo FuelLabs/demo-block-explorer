@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 
 const apolloClient = new ApolloClient({
-    uri: 'https://node-beta-2.fuel.network/graphql',
+    uri: 'https://beta-3.fuel.network/graphql',
     cache: new InMemoryCache(),
 });
 
